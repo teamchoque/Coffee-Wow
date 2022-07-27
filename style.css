@@ -1,4 +1,22 @@
 body {
-background: #FFFFFF;
+    background: #FFFFFF;
+}
+
+#banner-1 {
+    width: 30%;
+    display: flex;
+
+}
+
+.menu {
+    background: #2e8a96;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    display: center;
 
 }
