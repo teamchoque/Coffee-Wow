@@ -8,8 +8,7 @@ body {
 
 #banner-1 {
     width: 30%;
-   
-     
+      
 }
 
 nav ul li {
@@ -21,6 +20,8 @@ nav ul li {
 
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold ;
     font-size: 40px;
     color: #FFFFFF;
     margin: 10px 10px 10px 10px;
@@ -34,38 +35,88 @@ ul {
     background: #15575f;
 }
 
-.flex, .flexcat {
+#title {
+    align-items: center;
+    font-size: #15575f;
+
+}
+
+img {
+    width: 500px;
+    margin: 10%;
+}
+
+.container {
     display: flex;
+    align-items: center;
     
 }
 
-p {
+#descrition {
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 10px 10px 10px;
+    background: #c2ac97;
+    width: 30%;
+    padding: 5%;
+    border: solid 1px #c2ac97;
+	border-radius: 10px;
     
 }
 
 
-#ambiente.primeira {
+#print-1 {
     width: 50%;
-    margin: 20px 20px 20px 20px;
-    
+    margin: 50px 20px 30px 20px;
+    padding: 10px 10px 10px 10px;
       
 }
 
-#ambiente.segundaria {
-    width: 100px;
-    margin: 20px 20px 20px 20px;
+#print-2 {
+    width: 50%;
+    margin: 50px 20px 50px 20px;
+    padding: 10px 10px 10px 10px;
 }
 
+/* footer*/
 #banner-2 {
     width: 15%;
     
 }
 
+#footer{
+    padding: 90px 0 20px;
+    background: #15575f;
+    position: relative;
+}
 
-.logofinal {
-    background: #ffffff;
+.footer-text{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-right{
+    flex-basis: 50%;
+    padding: 2px;
+    margin-bottom: 8px;
+    text-align: right;
+    
+}
+
+.footer-text h3{
+    margin: 15px 0;
 }
 
 
+.footer-text p{
+    line-height: 27px;
+}
+
+.copy{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
