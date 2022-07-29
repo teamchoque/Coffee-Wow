@@ -46,9 +46,8 @@ nav a:hover {
 
 /* main*/
 
-main{
-    margin top: 30px;
-    
+.caixa{
+    padding: 10%;
 }
 
 .contato {
