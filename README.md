@@ -1,5 +1,7 @@
 # Coffee-Wow
-Projeto expositivo de uma empresa de cafe
+Projeto de uma empresa de cafe
+
+link - https://teamchoque.github.io/Coffee-Wow/
 
         Definição de etapas:
                     
