@@ -46,48 +46,27 @@ nav a:hover {
 
 /* main*/
 
-.sucos-1{
-    width: 100%;
-    width: 500px;
+main{
+    margin top: 30px;
     
 }
 
-.sucos-2{
-    width: 10%;
-    width: 300px;
-     
-}
-
-.produtos{
-    width: 940px;
-    margin: 0 auto ;
+.contato {
     background: #FFFFFF;
-    padding: 50px 0;
-}
-
-.produtos li {
-    background: #FFFFFF;
-    display: inline-block;
-    text-align: center;
     width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-}
-.produtos h2{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.produto-descricao{
-    font-size: 18px;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 50px;
+    padding-left: 500px;
     
 }
 
-.pruduto-preco{
-    font-size: 25px;
-    font-weight: bold;
+.contato-item {
+    font-size: 22px;
+    
 }
+
+
 
 /* footer*/
 

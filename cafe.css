@@ -1,14 +1,17 @@
 body {
     background: #FFFFFF;
 }
+
 /* header*/
 
-.logo, .logofinal {
+.logo {
     text-align: center;
+    width: 500px;
+    width: 100%;
 }
 
 #banner-1 {
-    width: 30%;
+    width: 25%;
       
 }
 
@@ -23,10 +26,10 @@ nav ul li {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: bold ;
-    font-size: 40px;
+    font-size: 50px;
     color: #FFFFFF;
-    margin: 10px 10px 10px 10px;
-    padding: 5px 5px 5px 5px;
+    margin: 50px auto;
+    padding: 30px auto;
    
 }
 
@@ -35,52 +38,74 @@ ul {
     justify-content: space-between;
     background: #15575f;
 }
+
+nav a:hover {
+    color: black;
+    text-decoration: solid;
+}
 /* main*/
 
-.flex {
-    display: flex;
+.coffee-1{
+    width: 100%;
+    width: 500px;
+    
 }
 
+.coffee-2{
+    width: 10%;
+    width: 300px;
+   
+    
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto ;
+    background: #FFFFFF;
+    padding: 50px 0;
+}
+
+.produtos li {
+    background: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+    
+}
+
+.pruduto-preco{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
 /* footer*/
-#banner-2 {
+
+#img {
     width: 15%;
     
 }
 
-#footer{
-    padding: 90px 0 20px;
-    background: #15575f;
-    position: relative;
-}
-
-.footer-text{
-    width: 65%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.footer-right{
-    flex-basis: 50%;
-    padding: 2px;
-    margin-bottom: 8px;
-    text-align: right;
-    
-}
-
-.footer-text h3{
-    margin: 15px 0;
-}
-
-
-.footer-text p{
-    line-height: 27px;
-}
-
-.copy{
+footer {
     text-align: center;
-    font-size: 12px;
-    margin-top: 20px;
-
+    background: url(img/img.png);
+    padding: 40px 0;
 }
+
+footer p {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 20px 0 0 ;
+}
+
