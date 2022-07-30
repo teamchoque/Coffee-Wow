@@ -40,7 +40,7 @@ ul {
 }
 
 nav a:hover {
-    color: black;
+    color: #c2ac97;
     text-decoration: solid;
 }
 
@@ -51,6 +51,7 @@ nav a:hover {
     font-size: 30px;
     color: #15575f;
     text-transform: uppercase;
+    margin-top: 10%;
 
 }
 
@@ -67,10 +68,10 @@ img {
 
 #descrition {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 10px 10px 10px;
+    margin: 5px 50px 10px 10px;
     background: #c2ac97;
     width: 30%;
-    padding: 5%;
+    padding: 2%;
     border: solid 1px #c2ac97;
 	border-radius: 10px;
     
@@ -81,13 +82,14 @@ img {
     width: 50%;
     margin: 50px 20px 30px 20px;
     padding: 10px 10px 10px 10px;
-      
+          
 }
 
 #print-2 {
     width: 50%;
     margin: 50px 20px 50px 20px;
     padding: 10px 10px 10px 10px;
+    
 }
 
 /* footer*/
@@ -101,6 +103,7 @@ footer {
     text-align: center;
     background: url(img/img.png);
     padding: 40px 0;
+    margin-top: 10%;
 }
 
 footer p {

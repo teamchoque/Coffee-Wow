@@ -40,21 +40,19 @@ ul {
 }
 
 nav a:hover {
-    color: black;
+    color: #c2ac97;
     text-decoration: solid;
 }
 
 /* main*/
 
 .sucos-1{
-    width: 100%;
-    width: 500px;
+    width: 150%;
     
 }
 
 .sucos-2{
-    width: 10%;
-    width: 300px;
+    width: 100%;
      
 }
 
@@ -100,6 +98,7 @@ footer {
     text-align: center;
     background: url(img/img.png);
     padding: 40px 0;
+    margin-top: 10%;
 }
 
 footer p {

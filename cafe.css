@@ -40,22 +40,19 @@ ul {
 }
 
 nav a:hover {
-    color: black;
+    color: #c2ac97;
     text-decoration: solid;
 }
 /* main*/
 
 .coffee-1{
-    width: 100%;
-    width: 500px;
-    
+    width: 150%;
+       
 }
 
 .coffee-2{
-    width: 10%;
-    width: 300px;
+    width: 100%;
    
-    
 }
 
 .produtos{
@@ -63,6 +60,7 @@ nav a:hover {
     margin: 0 auto ;
     background: #FFFFFF;
     padding: 50px 0;
+    
 }
 
 .produtos li {
@@ -78,6 +76,7 @@ nav a:hover {
     font-size: 30px;
     font-weight: bold;
 }
+
 
 .produto-descricao{
     font-size: 18px;
@@ -101,6 +100,7 @@ footer {
     text-align: center;
     background: url(img/img.png);
     padding: 40px 0;
+    margin-top: 10%;
 }
 
 footer p {

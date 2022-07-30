@@ -40,7 +40,7 @@ ul {
 }
 
 nav a:hover {
-    color: black;
+    color: #c2ac97;
     text-decoration: solid;
 }
 
@@ -78,6 +78,7 @@ footer {
     text-align: center;
     background: url(img/img.png);
     padding: 40px 0;
+    margin-top: 10%;
 }
 
 footer p {
