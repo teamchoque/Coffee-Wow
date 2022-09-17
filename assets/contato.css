@@ -43,50 +43,28 @@ nav a:hover {
     color: #c2ac97;
     text-decoration: solid;
 }
+
 /* main*/
 
-.coffee-1{
-    width: 150%;
-       
+.caixa{
+    padding: 10%;
 }
 
-.coffee-2{
-    width: 100%;
-   
-}
-
-.produtos{
-    width: 940px;
-    margin: 0 auto ;
+.contato {
     background: #FFFFFF;
-    padding: 50px 0;
-    
-}
-
-.produtos li {
-    background: #FFFFFF;
-    display: inline-block;
-    text-align: center;
     width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-}
-.produtos h2{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-
-.produto-descricao{
-    font-size: 18px;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 50px;
+    padding-left: 500px;
     
 }
 
-.pruduto-preco{
-    font-size: 25px;
-    font-weight: bold;
+.contato-item {
+    font-size: 22px;
+    
 }
+
 
 
 /* footer*/
@@ -98,7 +76,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url(img/img.png);
+    background: url(/img/img.png);
     padding: 40px 0;
     margin-top: 10%;
 }
@@ -108,4 +86,3 @@ footer p {
     font-size: 20px;
     margin: 20px 0 0 ;
 }
-

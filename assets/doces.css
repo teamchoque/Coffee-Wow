@@ -46,50 +46,45 @@ nav a:hover {
 
 /* main*/
 
-#title {
+.sucos-1{
+    width: 150%;
+    
+}
+
+.sucos-2{
+    width: 100%;
+     
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto ;
+    background: #FFFFFF;
+    padding: 50px 0;
+}
+
+.produtos li {
+    background: #FFFFFF;
+    display: inline-block;
     text-align: center;
-    font-size: 30px;
-    color: #15575f;
-    text-transform: uppercase;
-    margin-top: 10%;
-
-}
-
-img {
-    width: 500px;
-    margin: 10%;
-}
-
-.container, .container-2{
-    display: flex;
-    align-items: center;
-    
-}
-
-#descrition {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5px 50px 10px 10px;
-    background: #c2ac97;
     width: 30%;
-    padding: 2%;
-    border: solid 1px #c2ac97;
-	border-radius: 10px;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
     
 }
 
-
-#print-1 {
-    width: 50%;
-    margin: 50px 20px 30px 20px;
-    padding: 10px 10px 10px 10px;
-          
-}
-
-#print-2 {
-    width: 50%;
-    margin: 50px 20px 50px 20px;
-    padding: 10px 10px 10px 10px;
-    
+.pruduto-preco{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 /* footer*/
@@ -101,11 +96,10 @@ img {
 
 footer {
     text-align: center;
-    background: url(img/img.png);
+    background: url(/img/img.png);
     padding: 40px 0;
     margin-top: 10%;
-}exit
-
+}
 
 footer p {
     color: #FFFFFF;
